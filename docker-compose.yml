@@ -1,0 +1,6 @@
+﻿services:
+  huskyapi:
+    image: huskyapi
+    build:
+      context: .
+      dockerfile: HuskyApi/Dockerfile
