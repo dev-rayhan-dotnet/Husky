@@ -1,0 +1,13 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+SECONDS=0
+
+echo 'Building code'
+dotnet build -warnaserror
+
+echo 'Formatting code'
+dotnet format --verify-no-changes
+
+duration=$SECONDS
+echo "Elapsed time: $duration seconds"

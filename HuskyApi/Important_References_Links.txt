@@ -1,0 +1,10 @@
+
+
+
+https://www.code4it.dev/blog/husky-dotnet-precommit-hooks/
+
+
+
+https://medium.com/codenx/format-and-automate-net-project-with-husky-net-git-hooks-4dcace67797b
+
+
